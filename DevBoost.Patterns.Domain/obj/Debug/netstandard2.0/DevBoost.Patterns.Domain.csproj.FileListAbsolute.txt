@@ -1,0 +1,7 @@
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.AssemblyInfoInputs.cache
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.AssemblyInfo.cs
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.deps.json
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.dll
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.pdb
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.dll
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.pdb

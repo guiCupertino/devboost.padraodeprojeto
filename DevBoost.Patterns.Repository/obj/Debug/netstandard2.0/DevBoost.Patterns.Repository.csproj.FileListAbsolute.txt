@@ -1,0 +1,11 @@
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.dll
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.AssemblyInfoInputs.cache
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.AssemblyInfo.cs
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.csprojAssemblyReference.cache
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\bin\Debug\netstandard2.0\DevBoost.Patterns.Repository.deps.json
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\bin\Debug\netstandard2.0\DevBoost.Patterns.Repository.dll
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\bin\Debug\netstandard2.0\DevBoost.Patterns.Repository.pdb
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.pdb
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.csproj.CopyComplete
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.dll
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Repository\obj\Debug\netstandard2.0\DevBoost.Patterns.Repository.pdb
