@@ -1,0 +1,40 @@
+FONTES:
+https://www.youtube.com/watch?v=yd6V4w19iJU
+https://monografias.brasilescola.uol.com.br/computacao/analise-dos-beneficios-dos-padroes-cqrs-e-event-sourcing-em-arquitetura-de-microsservicos.htm
+https://www.revista-programar.info/artigos/o-que-esconde-o-cqrs
+https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
+https://martinfowler.com/bliki/CQRS.html
+
+
+O CQRS(Command Query Responsibility Segregation) tem como origem o CQS(Command Query Separation), um princípio elaborado por Bertrand Meyer durante o desenvolvimento da linguagem de programação Eiffel.
+Bertrand afirma que "fazer uma pergunta não deve alterar a sua resposta", sendo essa a ideia herdada para o CQRS.
+
+Greg Young consolidou a fundamentação do CQRS embasado no CQS. Tem como propósito fazer uma separação das duas responsabilidades, estipulando que um método deve ter uma única responsabilidade na execução de suas requests de servidores,
+devendo ser um comando ou uma consulta, nunca as duas coisas ao mesmo tempo.
+
+O que seria um "COMANDO"(COMMAND) ou uma "CONSULTA"(QUERY) na visão do padrão CQRS
+
+COMANDO: São todas aquelas requisições com POST, PUT e DELETE que alteram um estado de um objeto ou então gera algum efeito colateral no sistema.
+
+EXEMPLO:
+public void SaveJogadores(Jogadores jogadores){
+  //Faz o sve na base
+}
+
+No método acima, é gerado um efeito colateral no sistema e no objeto, persistindo os dados no banco e seu método não retorna nada, apenas tem a resposabilidade de fazer o SAVE.
+Se ocorrer algum erro decorrente do SAVE, deve ser lançado uma exception.
+
+CONSULTAS: Quando ele é uma consulta quando apenas retorna um valor
+EXEMPLO:
+public Jogadores GetByName(string nome){
+  return new Jogadores;
+}
+
+Dessa forma acima o método não irá alterar o estado do objeto e nem gerar danos colaterais no sistema referente a qualquer tipo de modificação.
+
+O Framework dotnet por exemplo segue esse padrão CQRS porém com algumas exceções, como por exemplo o método "MoveNext()" da interface IEnumerator, ele altera o estado do objeto avançando para o próximo objeto da enumeração e retorna um booleano para informar se ocorreu o avanço para o próximo da lista:
+
+EXEMPLO:
+while (e.MoveNext()){
+  Console.WriteLine(e.Current);
+}

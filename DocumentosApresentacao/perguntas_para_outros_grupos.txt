@@ -1,0 +1,24 @@
+
+
+MVC, MVP, MVVM
+1. Como funciona a comunicação entre a VIEWMODEL e a camada VIEW dentro da estrutura MVVM, seria uma alternativa melhor ao MVC?
+2. No caso da arquitetura MVC, o Controller recebe informação da View sobre uma determinada ação que deverá persistir dados no banco. Nesse cenário, o Controller é o responsável por se comunicar com a camada  de persistência a dados(Respository/DAL)?
+3. Para implementar a realização de testes unitários, qual padrão serio o melhor MVC, MVVM ou MVP?
+4. No padrão no MVP, a Presenter poderia se comunicar com várias views, ou apenas com uma, como acontece no MVC?
+5. Teríamos vantagens em implementar mvvm em projetos .net?
+
+Repository Pattern
+1. Eu consigo utilizar mais de um framework ORM com Repository Pattern?
+2. Eu só consigo utilizar repository pattern se eu estiver aplicando a modelagem DDD?
+3. Qual a vantagem de utilizar o Unit Of Work?
+4. Qual a relação de frameworks de mock com repository pattern?
+5. O repository pattern faz uso de abstração (interface). Seria boa prática adicionar o repository em Singleton no startup da aplicação ou apenas utilizá-lo no escopo de chamada da persistência?
+
+DDD
+1. É possível trabalhar utilizando DDD de forma paralela (áreas de negócio)? Como funciona a separação dos dominios na aplicação?
+2. Como utilizar o Event Storming para desenvolver uma arquitetura DDD?
+3. Como um DDD pode ajudar em um processo ágil?
+4. qual a importância da área de negocio e a linguagem ubíqua no padrão DDD?
+5. O que faz o DDD uma arquitetura efetiva?
+
+ 

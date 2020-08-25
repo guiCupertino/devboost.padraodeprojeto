@@ -5,3 +5,4 @@ C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\bin\Debug\netstandard2.0\
 C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\bin\Debug\netstandard2.0\DevBoost.Patterns.Domain.pdb
 C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.dll
 C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.pdb
+C:\DevBoost\DevBoost.Patterns\DevBoost.Patterns.Domain\obj\Debug\netstandard2.0\DevBoost.Patterns.Domain.csprojAssemblyReference.cache
